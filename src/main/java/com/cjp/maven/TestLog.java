@@ -14,6 +14,7 @@ public class TestLog {
 	public void animal(){
 		TestProject01 ss=new TestProject01();
 		Mycat cat=new Mycat();
+		logger.info("123");
 		cat.eat();
 		
 	}
